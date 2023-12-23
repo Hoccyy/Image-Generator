@@ -1,0 +1,16 @@
+
+.logo {
+    position: relative;
+    border: 1px dashed grey;
+
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 0.241);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem 0;
+}
