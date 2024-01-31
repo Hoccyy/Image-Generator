@@ -5,6 +5,7 @@
 
     border-radius: 13px;
     background-color: rgba(255, 255, 255, 0.241);
+    background-image: linear-gradient(to bottom, #a1aaaf 0%, #575c60 100%);
 }
 
 .center {
@@ -13,4 +14,13 @@
     align-items: center;
     position: relative;
     padding: 4rem 0;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+    .logo {
+        width: 95dvw;
+        height: 50vh;
+    }
 }

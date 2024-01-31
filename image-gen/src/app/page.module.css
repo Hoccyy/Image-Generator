@@ -18,6 +18,10 @@
   font-family: var(--font-mono);
 }
 
+.header {
+  color: black;
+  font-size: 30px;
+}
 .description a {
   display: flex;
   justify-content: center;
@@ -132,6 +136,12 @@
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 40px;
+    width: 100dvw;
   }
 
   .grid {

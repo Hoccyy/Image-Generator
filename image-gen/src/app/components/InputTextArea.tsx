@@ -6,7 +6,7 @@ type Props = {
     placeHolder?: string
 };
 
-const buttonContent = '⬆';
+const buttonContent = '↺';
 
 const InputTextArea = ({
     placeHolder = ''
